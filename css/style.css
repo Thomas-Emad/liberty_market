@@ -7,6 +7,9 @@
   --white_color: #fff;
   --tran_time: 0.4s;
 }
+html {
+  scroll-behavior: smooth;
+}
 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
@@ -236,7 +239,7 @@ header .container nav ul li:nth-child(1) a:hover {
     height: 300px;
   }
 }
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 420px) {
   .banner .container .image {
     max-width: 100%;
     height: 300px;
